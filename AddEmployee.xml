@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AddEmployee Suite">
+  <test thread-count="5" name="AddEmployee Test">
+    <classes>
+      <class name="Homework_2.HW_2"/>
+    </classes>
+  </test> <!-- AddEmployee Test -->
+</suite> <!-- AddEmployee Suite -->

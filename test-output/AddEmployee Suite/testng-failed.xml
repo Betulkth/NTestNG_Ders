@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AddEmployee Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddEmployee Test(failed)">
+    <classes>
+      <class name="Homework_2.HW_2">
+        <methods>
+          <include name="verifyAddEmployee"/>
+          <include name="openBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- Homework_2.HW_2 -->
+    </classes>
+  </test> <!-- AddEmployee Test(failed) -->
+</suite> <!-- Failed suite [AddEmployee Suite] -->
